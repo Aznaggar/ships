@@ -1,2 +1,2 @@
 # ships
-Let's the hunt begin!
+Let the hunt begin!
