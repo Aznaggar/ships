@@ -3,13 +3,16 @@
 
 class Board
 {
-    int* ptr;
+    int** ary;
+    //int** arycpy;
 public:
     Board();
     ~Board();
     Board(const Board& other);
-    int SetBoard();
-    void GetBoard();
+    void fillZeros();
+    void PrintBoard();
+    void SetBoard();
+    int GetBoard();
 };
 
 #endif // BOARD_H
